@@ -1,0 +1,30 @@
+name: jiuzhelijun
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiuzhelijun
+        env:
+          g565: ${{ secrets.g565 }}
+        run: |
+          echo $g565 | jq -r .qjqy872 | /bin/bash
+          echo $refb1 | jq -r .ksufs8190 | /bin/bash
+          echo $lqjo23 | jq -r .gowe83778 | /bin/bash
+          echo $cspk13301 | jq -r .w340 | /bin/bash
+          echo $a1 | jq -r .dkst227 | /bin/bash
+          echo $emr796 | jq -r .nusd3 | /bin/bash
+          echo $q84609 | jq -r .qj1505 | /bin/bash
+          echo $pioi55 | jq -r .sohpg8 | /bin/bash
+          echo $p01 | jq -r .aiwk14879 | /bin/bash
+          echo $nhnm127 | jq -r .sz8981 | /bin/bash
+          echo $f17577 | jq -r .ltyd36672 | /bin/bash
+          echo $eijjy9092 | jq -r .rhdyc84 | /bin/bash
+          echo $py34372 | jq -r .rp98 | /bin/bash
+          echo $hjyh0524 | jq -r .jujn58754 | /bin/bash
+
