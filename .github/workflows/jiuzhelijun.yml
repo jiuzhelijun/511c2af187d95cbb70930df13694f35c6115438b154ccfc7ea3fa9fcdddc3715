@@ -1,9 +1,6 @@
 name: jiuzhelijun
-
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '58 2,14 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +8,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: jiuzhelijun
         env:
-          ucfc24: ${{ secrets.ucfc24 }}
+          j215: ${{ secrets.j215 }}
         run: |
-          printf '%s' "$ucfc24" | jq -r .jdnoo12939 | /bin/bash
-          printf '%s' "$pdgj381" | jq -r .dbgwp18248 | /bin/bash
-          echo $cmxxq4 | jq -r .r88 | /bin/bash
-          echo $uj61 | jq -r .x423 | /bin/bash
-          echo $ya9 | jq -r .lm1141 | /bin/bash
-          printf '%s' "$rtfm8" | jq -r .gl2 | /bin/bash
-          printf '%s' "$x7771" | jq -r .bhvym6658 | /bin/bash
-          echo $v275 | jq -r .qshdn14 | /bin/bash
-          echo $u8392 | jq -r .zlo0584 | /bin/bash
-          echo $hpx61744 | jq -r .rbg430 | /bin/bash
-          printf '%s' "$ccv05154" | jq -r .x2 | /bin/bash
-          echo $ml0564 | jq -r .et1258 | /bin/bash
+          printf '%s' "$j215" | jq -r .mhxkt3538 | /bin/bash
+          printf '%s' "$s19" | jq -r .kcpab21 | /bin/bash
+          echo $ixp7 | jq -r .w124 | /bin/bash
+          echo $nlx565 | jq -r .xdcw93916 | /bin/bash
+          printf '%s' "$znfr905" | jq -r .girz8 | /bin/bash
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: j00TOAIk
+          path: "*.zip"
+          retention-days: 1
